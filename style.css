@@ -21,40 +21,41 @@
 /* RESETS */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-  font: inherit;
-  font-size: 1.07rem;
-  font-weight: var(--fw-regular);
-  color: var(--clr-neutral-100);
+    font: inherit;
+    font-size: 1.07rem;
+    font-weight: var(--fw-regular);
+    color: var(--clr-neutral-100);
 }
 
 body {
-  line-height: 1.55;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Public Sans", sans-serif;
+    line-height: 1.55;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Public Sans", sans-serif;
+    background-color: grey;
 }
 
 img, picture, svg {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 p, h1, h2, h3, h4 {
-  overflow-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 p {
-  text-wrap: pretty;
+    text-wrap: pretty;
 }
 
 h1, h2, h3, h4 {
-  text-wrap: balance;
+    text-wrap: balance;
 
-  color: var(--clr-main);
+    color: var(--clr-main);
 }
 
 h1 {
