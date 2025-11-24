@@ -36,6 +36,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     font-family: "Public Sans", sans-serif;
+    background-color: var(--clr-neutral-900);
 }
 
 img, picture, svg {
